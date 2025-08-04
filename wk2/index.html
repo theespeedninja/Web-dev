@@ -63,5 +63,30 @@
                     </tr>
                 </tbody>
             </table>
+            <h2>Forms</h2>
+            <form action="location" methods="how" enctype="multipart/form-data">
+                <label for="name" >Name;</label>
+                <input type="text" name="name" id="name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <label for="Profile">Profile Picture:</label>
+                <input type="file" name="profile" id="profile">
+                <br><br>
+                <label for="bio">Bio:</label>
+                <textarea name="bio" id="bio" rows="4" cols="50"></textarea>
+                <br><br>
+                <lable for="Country">Country:</lable>
+                <select name="country" id="country">
+                    <option value="">----select country----</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Uganda">Uganda</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
         </body>
     </html>
