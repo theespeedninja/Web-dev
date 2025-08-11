@@ -1,0 +1,19 @@
+p{ <!--  element selector -->
+    font-size: 16px;
+    color: red
+}
+#heading-one{ <!--  id selector -->
+    font-size: 50px;
+    color: chartreuse
+}
+
+.text-hightlight{ <!--  class selector -->
+    background-color: black;
+}
+
+*{ <!--  universal selector -->
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
